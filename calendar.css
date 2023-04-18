@@ -1,0 +1,88 @@
+
+/*
+     github.com/mmdvanazanin
+     
+     date: 18.04.2023 -- 11:00
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.back{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(219, 54, 109);
+    display: flex;
+    justify-content: center;
+}
+.calendar{
+    width: 700px;
+    height: 600px;
+    background-color: rgb(32, 31, 31);
+    margin: 30px;
+    border-radius: 25px;
+}
+.blue{
+    width: 700px;
+    height: 120px;
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.black{
+    color: white;
+    width: 700px;
+    height: 480px;
+    background-color: rgb(32, 31, 31);
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    
+}
+.black div{
+    width: 700px;
+    height: 60px;
+    font-size: 30px;
+}
+
+/*
+     github.com/mmdvanazanin
+     
+     date: 18.04.2023 -- 11:00
+*/
+
+.black .week{
+    display: flex;
+    flex-direction: row;
+   
+}
+.black .days{
+    display: flex;
+    flex-direction: row;
+   
+}
+.black .days div:hover{
+    border-color: gray;
+    transition: 1s;
+}
+.days div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(32, 31, 31);
+}
+.week div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+     github.com/mmdvanazanin
+     
+     date: 18.04.2023 -- 11:00
+*/
